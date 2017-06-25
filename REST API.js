@@ -168,7 +168,7 @@ app.put('/users/:id', function(req, res) {
 
 });
 
-// удление пользователя
+// удаление пользователя
 app.delete('/users/:id', function (req, res) {
 
     let id = req.params.id;
