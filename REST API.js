@@ -1,7 +1,7 @@
 /**
  * Created by mriba on 10.06.2017.
  */
-const port = process.env.POR || 3000;
+const port = process.env.PORT || 3000;
 const express = require('express');
 const app = express();
 
